@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SystemCommit</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to SystemCommit 🚀</h1>
+
+    <p id="message">My first GitHub project.</p>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <script>
+        function showMessage() {
+            const message = document.getElementById("message");
+
+            message.textContent = "JavaScript is working! 🚀";
+        }
+    </script>
+
+<p>Clicks: <span id="count">0</span></p>
+
+</body>
+<footer>
+    <p>Clicks: <span id="count">0</span></p>
+</footer>
+</html>
