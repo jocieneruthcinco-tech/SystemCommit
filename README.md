@@ -2,9 +2,11 @@
 
 A simple HTML, CSS, and JavaScript practice project.
 
-## Files
+Version: 1.0
 
-- index.html
-- style.css
-- script.js
-- README.md
+## Features
+
+- HTML homepage
+- CSS styling
+- JavaScript button interaction
+- Click counter
